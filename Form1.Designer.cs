@@ -42,6 +42,8 @@ namespace WindowsFormsApp1
             this.optexponente = new System.Windows.Forms.RadioButton();
             this.cboopciones = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.optprimo = new System.Windows.Forms.RadioButton();
+            this.optFactorial = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -169,7 +171,9 @@ namespace WindowsFormsApp1
             "suma",
             "resta",
             "multiplicacion",
-            "divicion"});
+            "divicion",
+            "primo",
+            "factorial"});
             this.cboopciones.Location = new System.Drawing.Point(489, 63);
             this.cboopciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboopciones.Name = "cboopciones";
@@ -187,11 +191,37 @@ namespace WindowsFormsApp1
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // optprimo
+            // 
+            this.optprimo.AutoSize = true;
+            this.optprimo.Location = new System.Drawing.Point(495, 350);
+            this.optprimo.Margin = new System.Windows.Forms.Padding(4);
+            this.optprimo.Name = "optprimo";
+            this.optprimo.Size = new System.Drawing.Size(63, 20);
+            this.optprimo.TabIndex = 13;
+            this.optprimo.TabStop = true;
+            this.optprimo.Text = "Primo";
+            this.optprimo.UseVisualStyleBackColor = true;
+            // 
+            // optFactorial
+            // 
+            this.optFactorial.AutoSize = true;
+            this.optFactorial.Location = new System.Drawing.Point(495, 378);
+            this.optFactorial.Margin = new System.Windows.Forms.Padding(4);
+            this.optFactorial.Name = "optFactorial";
+            this.optFactorial.Size = new System.Drawing.Size(80, 20);
+            this.optFactorial.TabIndex = 14;
+            this.optFactorial.TabStop = true;
+            this.optFactorial.Text = "Factorial";
+            this.optFactorial.UseVisualStyleBackColor = true;
+            // 
             // btncalcularopciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(864, 436);
+            this.Controls.Add(this.optFactorial);
+            this.Controls.Add(this.optprimo);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cboopciones);
             this.Controls.Add(this.optexponente);
@@ -229,6 +259,8 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.RadioButton optexponente;
         private System.Windows.Forms.ComboBox cboopciones;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton optprimo;
+        private System.Windows.Forms.RadioButton optFactorial;
     }
 }
 

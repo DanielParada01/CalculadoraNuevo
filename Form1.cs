@@ -19,11 +19,12 @@ namespace WindowsFormsApp1
 
         private void btncalcular_Click(object sender, EventArgs e)
         {
-            double num1, num2, respuesta=0;
+            double num1, num2, respuesta = 0;
             num1 = double.Parse(txb1.Text);
             num2 = double.Parse(txb2.Text);
-            if (optsuma.Checked) {
-            respuesta = num1 + num2;
+            if (optsuma.Checked)
+            {
+                respuesta = num1 + num2;
             }
             if (optresta.Checked)
             {
@@ -41,12 +42,45 @@ namespace WindowsFormsApp1
             {
                 respuesta = Math.Pow(num1, num2);
             }
-            //porcentaje
-            //factorial 5! = 5*4*3*2*1=120.
-            //
-           
+            
+            if (optFactorial.Checked) {
+                respuesta = (int)num1;
+               for (int i=(int)num1 -1; i>1; i--)
+                    {
+                        respuesta *= i;
+                    }
+
+               }
+      
             lblrespuesta.Text = "Respuesta: " + respuesta;
+
+
+
+
+
+            if (optprimo.Checked)
+            {
+                int i = 0, acum = 0;
+                while (i <= num1 && acum < 3)
+                {
+                    if (num1 % i == 0)
+                    {
+                        acum++; //acum = acum+0
+                    }
+                    i++;
+                    if (acum <= 2)
+                    {
+                        lblrespuesta.Text = "Respuesta: " + num1 + "Es primo";
+                    }
+                    else
+                    {
+                        lblrespuesta.Text = "Respuesta: " + num1 + " No es primo";
+                    }
+
+                }
+            }
         }
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {

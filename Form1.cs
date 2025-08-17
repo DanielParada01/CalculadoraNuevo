@@ -73,8 +73,14 @@ namespace WindowsFormsApp1
                 case 3:
                     respuesta = num1 / num2;
                     break;
-                    lblrespuesta.Text = "Respuesta: " + respuesta;
+                  
             }
+            lblrespuesta.Text = "Respuesta: " + respuesta;
+        }
+
+        private void lblrespuesta_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -47,40 +47,45 @@ namespace WindowsFormsApp1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(143, 51);
+            this.label1.Location = new System.Drawing.Point(191, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
+            this.label1.Size = new System.Drawing.Size(69, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "nuumero 1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(143, 86);
+            this.label2.Location = new System.Drawing.Point(191, 106);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.Size = new System.Drawing.Size(65, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Numero 2";
             // 
             // txb1
             // 
-            this.txb1.Location = new System.Drawing.Point(224, 52);
+            this.txb1.Location = new System.Drawing.Point(299, 64);
+            this.txb1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txb1.Name = "txb1";
-            this.txb1.Size = new System.Drawing.Size(100, 20);
+            this.txb1.Size = new System.Drawing.Size(132, 22);
             this.txb1.TabIndex = 2;
             // 
             // txb2
             // 
-            this.txb2.Location = new System.Drawing.Point(224, 86);
+            this.txb2.Location = new System.Drawing.Point(299, 106);
+            this.txb2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txb2.Name = "txb2";
-            this.txb2.Size = new System.Drawing.Size(100, 20);
+            this.txb2.Size = new System.Drawing.Size(132, 22);
             this.txb2.TabIndex = 3;
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(224, 134);
+            this.btncalcular.Location = new System.Drawing.Point(299, 165);
+            this.btncalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(75, 23);
+            this.btncalcular.Size = new System.Drawing.Size(100, 28);
             this.btncalcular.TabIndex = 4;
             this.btncalcular.Text = "calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
@@ -89,9 +94,10 @@ namespace WindowsFormsApp1
             // optsuma
             // 
             this.optsuma.AutoSize = true;
-            this.optsuma.Location = new System.Drawing.Point(371, 170);
+            this.optsuma.Location = new System.Drawing.Point(495, 209);
+            this.optsuma.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.optsuma.Name = "optsuma";
-            this.optsuma.Size = new System.Drawing.Size(52, 17);
+            this.optsuma.Size = new System.Drawing.Size(63, 20);
             this.optsuma.TabIndex = 5;
             this.optsuma.TabStop = true;
             this.optsuma.Text = "Suma";
@@ -100,9 +106,10 @@ namespace WindowsFormsApp1
             // optresta
             // 
             this.optresta.AutoSize = true;
-            this.optresta.Location = new System.Drawing.Point(371, 192);
+            this.optresta.Location = new System.Drawing.Point(495, 236);
+            this.optresta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.optresta.Name = "optresta";
-            this.optresta.Size = new System.Drawing.Size(48, 17);
+            this.optresta.Size = new System.Drawing.Size(58, 20);
             this.optresta.TabIndex = 6;
             this.optresta.TabStop = true;
             this.optresta.Text = "resta";
@@ -111,9 +118,10 @@ namespace WindowsFormsApp1
             // optmultiplicacion
             // 
             this.optmultiplicacion.AutoSize = true;
-            this.optmultiplicacion.Location = new System.Drawing.Point(371, 215);
+            this.optmultiplicacion.Location = new System.Drawing.Point(495, 265);
+            this.optmultiplicacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.optmultiplicacion.Name = "optmultiplicacion";
-            this.optmultiplicacion.Size = new System.Drawing.Size(88, 17);
+            this.optmultiplicacion.Size = new System.Drawing.Size(109, 20);
             this.optmultiplicacion.TabIndex = 7;
             this.optmultiplicacion.TabStop = true;
             this.optmultiplicacion.Text = "multiplicacion";
@@ -122,9 +130,10 @@ namespace WindowsFormsApp1
             // optdivicion
             // 
             this.optdivicion.AutoSize = true;
-            this.optdivicion.Location = new System.Drawing.Point(371, 238);
+            this.optdivicion.Location = new System.Drawing.Point(495, 293);
+            this.optdivicion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.optdivicion.Name = "optdivicion";
-            this.optdivicion.Size = new System.Drawing.Size(61, 17);
+            this.optdivicion.Size = new System.Drawing.Size(74, 20);
             this.optdivicion.TabIndex = 8;
             this.optdivicion.TabStop = true;
             this.optdivicion.Text = "divicion";
@@ -133,18 +142,21 @@ namespace WindowsFormsApp1
             // lblrespuesta
             // 
             this.lblrespuesta.AutoSize = true;
-            this.lblrespuesta.Location = new System.Drawing.Point(143, 195);
+            this.lblrespuesta.Location = new System.Drawing.Point(191, 240);
+            this.lblrespuesta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblrespuesta.Name = "lblrespuesta";
-            this.lblrespuesta.Size = new System.Drawing.Size(53, 13);
+            this.lblrespuesta.Size = new System.Drawing.Size(67, 16);
             this.lblrespuesta.TabIndex = 9;
             this.lblrespuesta.Text = "respuesta";
+            this.lblrespuesta.Click += new System.EventHandler(this.lblrespuesta_Click);
             // 
             // optexponente
             // 
             this.optexponente.AutoSize = true;
-            this.optexponente.Location = new System.Drawing.Point(371, 262);
+            this.optexponente.Location = new System.Drawing.Point(495, 322);
+            this.optexponente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.optexponente.Name = "optexponente";
-            this.optexponente.Size = new System.Drawing.Size(75, 17);
+            this.optexponente.Size = new System.Drawing.Size(91, 20);
             this.optexponente.TabIndex = 10;
             this.optexponente.TabStop = true;
             this.optexponente.Text = "exponente";
@@ -158,16 +170,18 @@ namespace WindowsFormsApp1
             "resta",
             "multiplicacion",
             "divicion"});
-            this.cboopciones.Location = new System.Drawing.Point(367, 51);
+            this.cboopciones.Location = new System.Drawing.Point(489, 63);
+            this.cboopciones.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cboopciones.Name = "cboopciones";
-            this.cboopciones.Size = new System.Drawing.Size(121, 21);
+            this.cboopciones.Size = new System.Drawing.Size(160, 24);
             this.cboopciones.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(384, 103);
+            this.button1.Location = new System.Drawing.Point(512, 127);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 41);
+            this.button1.Size = new System.Drawing.Size(100, 50);
             this.button1.TabIndex = 12;
             this.button1.Text = "calcular opciones";
             this.button1.UseVisualStyleBackColor = true;
@@ -175,9 +189,9 @@ namespace WindowsFormsApp1
             // 
             // btncalcularopciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(648, 354);
+            this.ClientSize = new System.Drawing.Size(864, 436);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.cboopciones);
             this.Controls.Add(this.optexponente);
@@ -191,6 +205,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.txb1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "btncalcularopciones";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
